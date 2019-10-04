@@ -28,8 +28,8 @@ namespace vid1
       // }
 
       // the most basic c# datatype are booleans
-      bool isTrue = true;
-      Console.WriteLine($"{isTrue}");
+      // bool isTrue = true;
+      // Console.WriteLine($"{isTrue}");
 
       /*
       c# has several built in primitive types, these are also known as built in types
@@ -88,6 +88,19 @@ namespace vid1
           Console.WriteLine(${lunchtime.ToString()})
 
        */
+
+      // BigInteger bigNum = BigInteger.Parse("12345");
+      // Console.WriteLine($"{bigNum}");
+
+      // num formatting
+      // Console.WriteLine($"Currency : {24.455:c}");
+      // Console.WriteLine($"pad with 0s : {43:d4}");
+      // Console.WriteLine($"3 decimals : {123:f3}");
+      // Console.WriteLine($"commas + decimals : {2123:n4}");
+
+      // string randString = "this is my string/";
+      // Console.WriteLine($"string length: {randString.Contains("is")}");
+
       var rand = new Random();
       int num = rand.Next(0, 32);
       Console.WriteLine($"{num}");
