@@ -29,6 +29,15 @@ namespace VS2019
             //    }
             //}
 
+            //int[] srcArray = { 1, 2, 3 };
+            //int[] destArray = new int[2];
+            //int startInd = 0;
+            //int length = 2;
+            //Array.Copy(srcArray, startInd, destArray, startInd, length);
+            //Array.ForEach(destArray, Console.WriteLine);
+
+            // since strings are immutable in c# the only way to change a string without creating a new one
+            // is by using a string builder
 
             Console.ReadLine();
         }
