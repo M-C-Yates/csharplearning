@@ -1,6 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace vid2
+namespace VS2019
 {
     class Program
     {
