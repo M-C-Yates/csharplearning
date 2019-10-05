@@ -19,3 +19,4 @@ bld/
 msbuild.log
 msbuild.err
 msbuild.wrn
+/dbanasC#/vid2/VS2019/.vs/VS2019/v16/Server/sqlite3
