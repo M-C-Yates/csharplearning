@@ -38,7 +38,9 @@ namespace VS2019
 
             // since strings are immutable in c# the only way to change a string without creating a new one
             // is by using a string builder
-
+            StringBuilder sb = new StringBuilder("Lorem Ipsum");
+            StringBuilder sb2 = new StringBuilder("More Lorem Ipsum", 256);
+            Console.WriteLine($"{sb.Capacity} {sb2.Capacity}");
             Console.ReadLine();
         }
     }
